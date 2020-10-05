@@ -1,0 +1,21 @@
+@import 'commons/variables';
+@import 'commons/mixins';
+
+
+@import 'layouts/header';
+@import 'layouts/footer';
+
+@import 'pages/home';
+@import 'pages/hero';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/portfolio';
+@import 'pages/team';
+@import 'pages/clients';
+@import 'pages/contact';
+
+
+@import 'components/dropdowns';
+@import 'components/buttons';
+@import 'components/cards';
+

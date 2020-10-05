@@ -1,0 +1,38 @@
+@mixin dropdown($width: 180px) {
+    opacity: 0;
+    width: $width;
+    position: absolute;
+    background-color: $color-white;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    transition: ease all 0.3s;
+}
+
+@mixin flex($flex-direction: row, $justify-content: center, $align-items: center) {
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin titleSection {
+    font-family: $main-font;
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: bolder;
+}
+
+@mixin subtitleSection ($subtitle-width: 50%) {
+    font-family: $secondary-font;
+    color: #556877;
+    width: $subtitle-width;
+    text-align: center;
+    font-size: $p-font-size;
+}
+
+@mixin Team-Cards {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    overflow: hidden;
+}

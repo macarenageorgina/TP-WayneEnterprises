@@ -1,0 +1,139 @@
+.about{
+    position:relative;
+ }
+
+.about-header{
+    h2{
+        @include titleSection
+    }
+    p{
+        font-family: $secondary-font;
+        font-size: $p-font-size;
+        color: #556877;
+        width: 40%;
+        text-align: center;
+        margin-left: 30%;
+    }
+}
+
+.about-container{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text{
+    font-family: $secondary-font;
+    line-height: 26px;
+    text-align: left;
+    width: 80%;
+}
+
+.img-about{
+    width: 542px;
+    height: 500px;
+}
+
+.about1{
+   .imgabout1{
+    float: right;
+    padding-right: 120px;
+   }
+  .info1{
+    position: absolute;
+    top: 144px;
+    width: 43%;
+    }
+}
+
+.icons-about{
+    position: absolute;
+    top: 270px;
+    width: 690px;
+}
+
+.circle-icon{
+    display: block;
+    width: 67px;
+    height: 65px;
+    border: 2px solid $color-nav-hover;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+    &:hover{
+        background-color: $color-nav-hover;
+        color: $color-white;
+        transition: 0.5s;
+    }
+}
+
+.icon{
+    position: relative;
+    width: 690px;
+    height: 104px;
+    font-size: 30px;
+    color: $color-nav-hover;
+}
+
+.title{
+    font-family: $main-font;
+    color: black;
+    font-size: $subtitle-font-size;
+    position: absolute;
+    left: 85px;
+    top: -15px;
+    width: 43%;
+}
+
+.desc-about{
+    font-family: $secondary-font;
+    color: $default-font-color;
+    line-height: 24px;
+    font-size: $default-font-size;
+    text-align: left;
+    position: absolute;
+    left: 85px;
+    top: 20px;
+    width: 51%;
+}
+
+.iconalbum{
+    position: absolute;
+    top: 399px;
+}
+
+.iconchart{
+    position: absolute;
+    top: 500px;
+}
+
+.title-about{
+    font-family: $secondary-font;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about2{
+    display: flex;
+    flex-direction: row;
+    .imgabout2{
+        float: left;
+        padding-left: 120px;
+    }
+    .information2{
+        padding: 80px 130px 0 25px;    
+    }
+}
+
+
+.about3{
+    display: flex;
+    flex-direction: row-reverse;
+   .imgabout3{
+    float: right;
+    padding-right: 120px;
+    }
+    .information3{
+        padding: 0 20px 0 130px;
+    }
+}

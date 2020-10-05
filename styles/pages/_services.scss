@@ -1,0 +1,30 @@
+.services-section{
+    background-color: #ecf5ff;    
+    padding-bottom: 50px;
+}
+
+.header-services{
+    text-align: center; 
+    padding: 10px;
+    margin: 30px;   
+    h2 {
+      @include titleSection;
+    }
+    p{
+        font-family: $secondary-font;
+        color: #556877;
+        font-size: $p-font-size;
+        width: 42%;
+        margin-left: 28%;
+    }
+}
+
+.container-card-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+
+
+
